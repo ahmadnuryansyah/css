@@ -1,0 +1,246 @@
+body {
+    background-image: url(https://www.toptal.com/designers/subtlepatterns/patterns/vintage-wallpaper.png);
+}
+
+#navigationUserWrapper {
+    background: #D4200F !important;
+}
+
+.pkp_site_name>a {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+
+.pkp_navigation_primary_wrapper {
+    background: #D4200F !important;
+}
+
+#pkp_content_main {
+    background: #fff !important;
+}
+
+.pkp_structure_footer_wrapper {
+    background: #B5B5B5 !important;
+}
+
+#wordcloud {
+    background: white;
+}
+
+.obj_article_details .abstract {
+    text-align: justify;
+}
+
+.pkp_footer_content {
+    float: left;
+    width: 70%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* .pkp_footer_content img {
+    width: 105px !important;
+    height: 105px !important;
+} */
+
+.pkp_brand_footer {
+    float: right;
+    width: 30%;
+    padding-bottom: 10px;
+    padding-top: 50px;
+}
+
+/* .pkp_structure_footer_wrapper {
+    background: #e8ebef;
+    border-bottom: @double solid;
+    border-bottom-color: #595959;
+} */
+
+.pkp_site_name .is_img img {
+    display: block;
+    max-width: 100%;
+    max-height: max-content;
+    width: auto;
+    height: auto;
+}
+
+.block_Keywordcloud .title {
+    /* position: fixed !important; */
+    text-transform: uppercase !important;
+    font-family: Arial, Helvetica, sans-serif !important;
+    height: 45px !important;
+    width: auto !important;
+    font-size: 17px !important;
+    background: #11B398 !important;
+    text-align: center !important;
+    color: #fff !important;
+    padding: 12px;
+}
+
+.current_issue img {
+    max-width: 50% !important;
+}
+
+#cssmenu {
+    position: relative;
+    margin: 0;
+    font-family: 'Roboto Condensed';
+    line-height: 0.5;
+    width: 240px;
+  }
+
+  .align-right {
+    float: right;
+  }
+
+  #cssmenu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: block;
+  }
+
+  #cssmenu ul li {
+    position: relative;
+    margin: 0;
+    padding: 0;
+  }
+
+  #cssmenu ul li a {
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  #cssmenu>ul>li>a {
+    color: #ffffff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: block;
+    padding: 20px;
+    border-top: 1px solid #000000;
+    border-left: 1px solid #000000;
+    border-right: 1px solid #000000;
+    background: #088671;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+    letter-spacing: 1px;
+    font-size: 15px;
+    font-weight: 300;
+    -webkit-transition: all 0.25s ease-in;
+    -moz-transition: all 0.25s ease-in;
+    -ms-transition: all 0.25s ease-in;
+    -o-transition: all 0.25s ease-in;
+    transition: all 0.25s ease-in;
+    position: relative;
+  }
+
+  #cssmenu>ul>li:first-child>a {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+
+  #cssmenu>ul>li:last-child>a {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom: 1px solid #000000;
+  }
+
+  #cssmenu>ul>li.active>a {
+    background: #01ad91;
+    color: #ffffff;
+  }
+
+  #cssmenu ul>li.has-sub::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border: 7px solid transparent;
+    border-top-color: #dddddd;
+    z-index: 2;
+    right: 20px;
+    top: 24.5px;
+    pointer-events: none;
+  }
+
+  #cssmenu ul>li:hover::after,
+  #cssmenu ul>li.active::after,
+  #cssmenu ul>li.open::after {
+    border-top-color: #ffffff;
+  }
+
+  #cssmenu ul>li.has-sub.open>a::after {
+    opacity: 1;
+    bottom: -13px;
+  }
+
+  #cssmenu ul>li.has-sub.open>a::before {
+    opacity: 1;
+    bottom: -12px;
+  }
+
+  #cssmenu ul ul {
+    display: none;
+  }
+
+  #cssmenu ul ul li {
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+  }
+
+  #cssmenu ul ul li a {
+    background: #f1f1f1;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: block;
+    position: relative;
+    font-size: 15px;
+    padding: 14px 20px;
+    border-bottom: 1px solid #dddddd;
+    color: #707070;
+    font-weight: 300;
+    -webkit-transition: all 0.25s ease-in;
+    -moz-transition: all 0.25s ease-in;
+    -ms-transition: all 0.25s ease-in;
+    -o-transition: all 0.25s ease-in;
+    transition: all 0.25s ease-in;
+  }
+
+  #cssmenu ul ul li:first-child>a {
+    padding-top: 18px;
+  }
+
+  #cssmenu ul ul ul li {
+    border: 0;
+  }
+
+  #cssmenu ul ul li:hover>a,
+  #cssmenu ul ul li.open>a,
+  #cssmenu ul ul li.active>a {
+    background: #cacaca;
+    color: rgb(0, 0, 0);
+  }
+
+  #cssmenu ul ul>li.has-sub>a::after {
+    border-top: 13px solid #dddddd;
+  }
+
+  #cssmenu ul ul>li.has-sub>a::before {
+    border-top: 13px solid #e4e4e4;
+  }
+
+  #cssmenu ul ul ul li a {
+    padding-left: 30px;
+  }
+
+  #cssmenu ul ul>li.has-sub::after {
+    top: 18.5px;
+    border-width: 6px;
+    border-top-color: #777777;
+  }
+
+  #cssmenu ul ul>li:hover::after,
+  #cssmenu ul ul>li.active::after,
+  #cssmenu ul ul>li.open::after {
+    border-top-color: #666666;
+  }
